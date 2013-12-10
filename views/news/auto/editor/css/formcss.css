@@ -1,0 +1,19 @@
+/* 
+    Document   : formcss
+    Created on : Jul 26, 2012, 12:19:53 AM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#submitnewpost [type=text]{
+    font-size: 20px;
+    width: 100%;
+    border: solid 1px gray;
+}
+
+
+
+#submitnewpost [type=submit]{
+    font-size: 20px;
+}

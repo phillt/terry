@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elementbar>
+    
+    <group>
+        <info>
+              <gname>system</gname>
+            <class>elementGroup</class>
+        </info>
+                <button>  
+                    <title>run</title>
+                    <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/PlayGreenButton.png</image>
+                    <eventListner>onclick</eventListner>
+                    <handler>alert('okay!')</handler>
+                </button>          
+    </group>
+    
+    <group>
+     <info>
+              <gname>basics</gname>
+            <class>elementGroup</class>
+            
+        </info>
+                
+                <button>
+                    
+                    <title>image</title>
+                    <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/image_add-1.png</image>
+                    
+                    
+                </button>
+                
+                   <button>
+                    
+                    <title>image</title>
+                    <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/image_add-1.png</image>
+                    
+                    
+                </button>
+             
+                
+                  <button>
+                    
+                    <title>link</title>
+                    <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/link_add.png</image>
+
+                </button>
+                  
+                   <button>
+                    
+                    <title>video</title>
+                    <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/youtube-1.png</image>
+                    
+                    
+                </button>
+                   
+                   <button>
+                    <title>textbox</title>
+                    <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/addtext.png</image>
+                    <handler>insertATextBox()</handler>
+                    <eventListner>onclick</eventListner>
+                   </button>
+        </group>
+    
+    
+            <group>
+                <info>
+                    <gname>handle elements</gname>
+                    <class>elementGroup</class>
+                    
+                       <button>
+                    
+                        <title>inspector</title>
+                        <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/info_button.png</image>
+                        <eventListner>onclick</eventListner>
+                        <handler>showInspector()</handler>
+                       
+                    
+                        </button>
+                </info>
+            </group>
+    
+        
+        <group>
+            <info>
+                <gname>system</gname>
+                <class>elementGroup</class>
+            </info>
+            
+                    <button>            
+                        <title>save</title>
+                        <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/Save.png</image>
+                        
+                    </button>
+                    
+                    <button>
+                        <title>logout</title>
+                        <image>http://www.philllware.com/HybridFrame/toolbarcreate/images/door_in.png</image>
+                    </button>
+        </group>
+        
+    
+    
+</elementbar>
+
+

@@ -1,0 +1,44 @@
+/* 
+    Document   : social
+    Created on : Aug 17, 2012, 9:30:00 PM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.socialicons{
+   box-shadow: none;
+   margin: 0px 10px;
+}
+
+.socialicons_link{
+   box-shadow: none;
+   text-decoration: none;
+   
+}
+
+.social{
+    padding: 10px;
+    border-radius: 5px;
+    border:#6c727c 2px solid;
+    background-color:#d4d9e0;
+}
+
+.social_title{
+    color: black;
+    font-size: 30px;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+}
+
+.social table, .fb-comments{
+    display: block;
+    width: inherit;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.fb-comments{
+    background-color: white;
+}

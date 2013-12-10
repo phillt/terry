@@ -1,0 +1,58 @@
+/* 
+    Document   : index
+    Created on : Jun 27, 2012, 6:32:18 PM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#contactMe1{
+    position: relative;
+    width: 900px;
+    height: auto;
+    top: 0px;
+    background-color: #4C4C4C;
+ 
+    margin: auto;
+    left: 0px;
+    right: 0px;
+}
+
+.emailmeTextInputField{
+    width: 500px;
+    margin-left: auto;
+    margin-right: 0px;
+    left: auto;
+    right: 0px;
+    font-size: 20px;
+}
+
+#emailMehead{
+    height: auto;
+    padding: 10px;
+    background-color: #3B3B3B;
+}
+#emailMeContentField{
+    width: 100%;
+    height: 200px;
+}
+#emailBody{
+    margin-top: 20px;
+    padding: 10px;
+}
+#mailFoot{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.emailmeTables{
+    width: 100%;
+}
+
+.emailMeLables{
+    width: 100px;
+}
+
+#emailMeSubmitForm{
+    width: 100px;
+}

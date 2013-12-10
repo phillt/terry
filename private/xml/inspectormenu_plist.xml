@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<inspectorbar>
+    <group>
+         <info>
+            <gname>Formatting</gname>
+            <class>inspectorbar</class>
+        </info>
+         
+        <button>
+            <title>text menu</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/font_p.png</content> 
+        </button>
+        
+        <button>
+            <title>measurements</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/ruler.png</content>
+        </button>
+        
+         <button>
+            <title>color</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/paint.png</content>
+        </button>
+         
+         <button>
+            <title>image</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/note.png</content>
+        </button>
+         
+          <button>
+            <title>basic</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/spanner.png</content>
+        </button>
+         
+    </group>
+    
+</inspectorbar>
+    
+

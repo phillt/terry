@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formatbar>
+    <group>
+        <info>
+            <gname>media</gname>
+            <class>sticky</class>
+        </info>
+        <button>
+            <title>justify left</title>
+            <type>image</type>
+            <content>http://www.philllware.com/LittleBox/images/picture.png</content>
+        <eventListner>onclick</eventListner>
+            <handler>window.open("http://www.philllware.com/LittleBox/cms/imageSelectInterface/", "_blank","width=400px,height=500px")</handler>
+            <inlineStyle>padding-top: 2px;padding-bottom: 2px;</inlineStyle>
+        </button>
+        
+    </group>
+        
+    <group>
+        <info>
+            <gname>Formatting</gname>
+            <class>sticky</class>
+        </info>
+        
+        
+        <button>
+            <title>justify left</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/leftJustify.png</content>
+        <eventListner>onclick</eventListner>
+            <handler>alignLeft()</handler>
+        </button>
+        
+        <button>
+            <title>justify center</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/centerJustify.png</content>
+            <eventListner>onclick</eventListner>
+            <handler>alignCenter()</handler>
+        </button>
+        
+        <button>
+            <title>justify right</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/fullJustify.png</content>
+            <eventListner>onclick</eventListner>
+            <handler>alignJustify()</handler>
+        </button>
+        
+        <button>
+            <title>justify full</title>
+            <type>image</type>
+            <content>http://www.philllware.com/HybridFrame/toolbarcreate/images/rightJustify.png</content>
+            <eventListner>onclick</eventListner>
+            <handler>alignRight()</handler>
+        </button>
+        
+        
+    </group>
+    
+    <group>
+        <info>
+            <gname>Styles</gname>
+            <class>sticky</class>
+        </info>
+        
+        <button>
+            <title>bold</title>
+            <type>text</type>
+            <content>&lt;b&gt;B&lt;/b&gt;</content>
+            <eventListner>onclick</eventListner>
+            <handler>makeBold()</handler>
+        </button>
+         <button>
+            <title>italics</title>
+            <type>text</type>
+            <content>&lt;i&gt;I&lt;/i&gt;</content>
+            <eventListner>onclick</eventListner>
+            <handler>makeItalic()</handler>
+        </button>
+          <button>
+            <title>Underline</title>
+            <type>text</type>
+            <content>&lt;u&gt;U&lt;u&gt;</content>
+            <eventListner>onclick</eventListner>
+            <handler>makeUnderline()</handler>
+        </button>
+          <button>
+            <title>createlist</title>
+            <type>text</type>
+            <content>•–</content>
+            <eventListner>onclick</eventListner>
+            <handler>createList()</handler>
+        </button>
+          <button>
+            <title>createlist</title>
+            <type>text</type>
+            <content>_</content>
+            <eventListner>onclick</eventListner>
+            <handler>insertLineBreak()</handler>
+        </button>
+    </group>
+    <group>
+        <info>
+            <gname>headers</gname>
+            <class>labled</class>
+        </info>
+          <button>
+            <title>headers</title>
+            <type>dropDown</type>
+            <inlineStyle>text-align: right;</inlineStyle> 
+            <content>
+                <option>h</option>
+                <value>0</value>
+                <option>h1</option>
+                <value>h1</value>
+                <option>h2</option>
+                <value>h2</value>
+                <option>h3</option>
+                <value>h3</value>
+                <option>h4</option>
+                <value>h4</value>
+                <option>h5</option>
+                <value>h5</value>
+                <option>h6</option>
+                <value>h6</value>
+            
+            </content>
+            <eventListner>onchange</eventListner>
+            <handler>createHeader()</handler>
+            <id>headerSelection</id>
+        </button>     
+        
+    </group>
+    
+    
+    
+    <group>
+        <info>
+            <gname>fonts size</gname>
+            <class>labled</class>
+        </info>
+        
+         <button>
+            <title>Underline</title>
+            <type>lable</type>
+            <content>font size: </content>
+            
+            
+        </button>
+         <button>
+            <title>text</title>
+            <type>textinput</type>
+            <content>10px</content>
+            <inlineStyle>width:50px;</inlineStyle>
+            <eventListner>onkeyup</eventListner>
+            <handler>fontSize(this.value)</handler>
+           
+         
+         </button>
+        
+    </group>
+    
+    <group>
+        <info>
+            <gname>family</gname>
+            <class>labled</class>
+        </info>
+        
+        <button>
+            <title>font famiy</title>
+            <type>lable</type>
+            <content>family: </content>
+
+        </button>
+        <button>
+            <title>fonts</title>
+            <type>dropDown</type>
+            <inlineStyle>text-align: right;</inlineStyle> 
+            <content>
+                <option>Arial</option>
+                <value>Arial</value>
+                <option>Helvetica</option>
+                <value>Helvetica</value>
+                <option>sans-serif</option>
+                <value>sans-serif</value>
+                <option>Comic Sans MS</option>
+                <value>Comic Sans MS</value>
+                <option>Impact</option>
+                <value>Impact</value>
+                <option>Lucidia Sans Unicode</option>
+                <value>Lucidia Sans Unicode</value>
+                <option>Times</option>
+                <value>Times</value>
+                <option>Times New Roman</option>
+                <value>Times New Roman</value>
+            </content>
+            <eventListner>onchange</eventListner>
+            <handler>changeFontFamily(this)</handler>
+        </button>        
+        
+        
+    </group>
+    
+    <group>
+        <info>
+            <gname>Actions</gname>
+            <class>sticky</class>
+            <id>linkCreate</id>
+        </info>
+        
+        <button>
+            <title>Link</title>
+            <type>text</type>
+            <content>Create a link.</content>
+            <eventListner>onclick</eventListner>
+            <handler>createLink()</handler>
+            <inlineStyle>width:100px;</inlineStyle>
+        </button>
+        
+    </group>
+    
+    
+     <group>
+        <info>
+            <gname>table</gname>
+            <class>labled</class>
+            <name>tableGroup</name>
+            <id>tableCreate</id>
+        </info>
+        
+       
+        
+         <button>
+            <title>Table</title>
+            <type>lable</type>
+            <content>Border:</content>
+                
+        </button>
+        <button>
+            <title>border</title>
+            <type>textinput</type>
+            <content>1px</content>
+            <inlineStyle>width:30px;</inlineStyle>
+
+        </button>
+        
+        <button>
+            <title>style</title>
+            <type>dropDown</type>
+            <inlineStyle>text-align: right;</inlineStyle> 
+            <content>
+                <option>none</option>
+                <value>none</value>
+                <option>solid</option>
+                <value>solid</value>
+                <option>dotted</option>
+                <value>dotted</value>
+                <option>dashed</option>
+                <value>dashed</value>
+                <option>double</option>
+                <value>double</value>
+                <option>groove</option>
+                <value>groove</value>
+                <option>ridge</option>
+                <value>ridge</value>
+                <option>inset</option>
+                <value>inset</value>
+                <option>outset</option>
+                <value>outset</value>
+            </content>
+        
+        </button> 
+        
+  <button>
+            <title>Table</title>
+            <type>lable</type>
+            <content>width:</content>
+                
+        </button>
+     <button>
+            <title>style</title>
+            <type>dropDown</type>
+            <inlineStyle>text-align: right;</inlineStyle> 
+            <content>
+                <option>auto</option>
+                <value>auto</value>
+                <option>100%</option>
+                <value>100%</value>
+                <option>75%</option>
+                <value>57%</value>
+                <option>50%</option>
+                <value>50%</value>
+                <option>25%</option>
+                <value>25%</value>
+            </content>
+        
+        </button>
+     
+      <button>
+            <title>Table</title>
+            <type>lable</type>
+            <content>Cols/Rows:</content>
+                
+        </button>
+         <button>
+            <title>border</title>
+            <type>textinput</type>
+            <content>1</content>
+            <inlineStyle>width:30px;</inlineStyle>
+
+        </button>
+         
+          <button>
+            <title>border</title>
+            <type>textinput</type>
+            <content>2</content>
+            <inlineStyle>width:30px;</inlineStyle>
+
+        </button>
+        
+    </group>
+     
+     
+     <group>
+        <info>
+            <gname>Actions</gname>
+            <class>sticky</class>
+            <id>createtablebutton</id>
+        </info>
+        
+        <button>
+            <title>Link</title>
+            <type>text</type>
+            <content>InsertTable.</content>
+            <eventListner>onclick</eventListner>
+            <handler>createTable()</handler>
+            <inlineStyle>padding:5px;width: 80px;</inlineStyle>
+        </button>
+        
+    </group>
+    
+    
+</formatbar>

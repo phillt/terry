@@ -1,0 +1,99 @@
+/* 
+    Document   : videos
+    Created on : Jul 19, 2012, 1:34:12 PM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#videoFrame{
+    width: auto;
+    height: 700px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#videoplist{
+    height: 700px;
+    width: inherit;
+    overflow-y: auto;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+#cvideo{
+    height: auto;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: relative;
+    margin-top: o;
+    margin-bottom: 20px;
+}
+
+#videoTitle{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.edgework{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#videocontainer{
+    height: 400px;
+}
+
+#viddisc{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+#othervids{
+    width: 300px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.videoLink{
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 500ms;
+    -moz-transition: 500ms;  
+    -webkit-transition: 500ms;   
+    -o-transition: 500ms; 
+    float: left;
+}
+
+.videoLink:hover{
+    background-color: rgb(141, 201, 232);
+}
+
+
+.vidthumb{
+    position: relative;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.vname{
+    text-align: left;
+    margin: 12px;
+}

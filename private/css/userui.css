@@ -1,0 +1,38 @@
+/* 
+    Document   : userui
+    Created on : Jul 27, 2012, 12:44:35 PM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.userui{
+    margin: 10px 10px;
+    
+    width: auto;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: left;
+    min-height: 50px;
+    border: solid 1px #ff9933;
+   
+/*    border: dashed #0099ff 2px;*/
+    
+}
+
+.userui img{
+    box-shadow: none;
+    margin: auto;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+.addbutton{
+    margin-top: 9px;
+}
+
+.userui:hover{
+    color: white;
+     background-color: #ff9933;
+}

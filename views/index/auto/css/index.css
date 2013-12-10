@@ -1,0 +1,82 @@
+/* 
+    Document   : index
+    Created on : Jun 27, 2012, 6:32:18 PM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#tableColumns{
+    width: 100%;
+
+
+}
+
+
+#tableColumns th{
+    font-size: 30px;
+    color: rgb(100, 100, 100);
+/*    font-weight: lighter;*/
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    font-family: Carnevalee_Freakshow;
+    font-size: 45px;
+}
+
+#tableColumns td{
+    width: 33.3%;
+    vertical-align: top;
+    padding: 5px;
+    border-right: solid thin rgb(200, 200, 200);
+    padding: 20px;
+
+}
+
+
+#tableColumns td:last-child{
+    border-right: none;
+}
+
+#tableColumns ul{
+    padding: 0px;
+    margin: 0;
+}
+
+#tableColumns li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#dailyMessage{
+    color: white;
+    width:auto;
+    height:auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    min-height: 650px;
+    max-height: 650px;
+    width: 500px;
+    text-shadow: 0px 0px 5px black;
+    filter: glow(color=black,strength=5); 
+}
+
+.news_date{
+    
+}
+
+.news_title{
+    font-size: 20px;
+    color: black;
+}
+
+table td a{
+    text-decoration: none;
+    color: gray;
+}

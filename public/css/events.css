@@ -1,0 +1,45 @@
+.event_title{
+   font-size: 20px;
+    color: black;
+    text-indent:0px;
+}
+
+.eventItem{
+    margin-top: 15px;
+}
+
+.place{
+    text-indent:20px;
+    color: gray;
+    margin-top: 5px;
+}
+
+
+
+.eventList{
+    margin-top: 40px;
+    text-indent:20px;
+    color: gray;
+   
+}
+
+#eventStream{
+    height: auto;
+    max-height: 650px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 480px;
+    top: 0px;
+    bottom: 0px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.event_disc{
+   margin-top: 10px;
+   color: gray;
+}
+
+#tourlink{
+   text-decoration: none;
+}

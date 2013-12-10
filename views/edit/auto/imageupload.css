@@ -1,0 +1,16 @@
+/* 
+    Document   : imageupload
+    Created on : Jul 28, 2012, 12:13:41 AM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.imagestoupload{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    height: 200px;
+    margin: 10px;
+}
+

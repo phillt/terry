@@ -1,0 +1,435 @@
+/* 
+    Document   : default
+    Created on : Jul 16, 2012, 11:59:47 AM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    scrollbar-face-color:#000000;
+    scrollbar-shadow-color:#000000;
+    background-image: url(../../public/images/dwgr.png);
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-color: #281400;
+    opacity: 1;
+    margin: 0px;
+    /*    transition: 500ms;
+        -moz-transition: 500ms;  Firefox 4 
+        -webkit-transition: 500ms;  Safari and Chrome 
+        -o-transition: 500ms;  Opera */
+    font-family: helvetica;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    text-shadow: 0px 1px 0px white;
+    color: gray;
+    filter: Shadow(Color=#000000, Direction=1, Strength=1);
+}
+
+#brandedname{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+h1{
+    color: #505050;
+    text-shadow: 0px 1px 1px white;
+    font-family: Carnevalee_Freakshow;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a img {border: none; }
+img {
+    box-shadow: 0px 0px 5px #000000;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+p{
+    letter-spacing: 1px;
+}
+.shadowImage{
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#spacer{
+    height: 200px; 
+}
+
+#menu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+#menu hr{
+    width: 900px;
+}
+
+.side_to_side{
+    text-align: center;
+}
+
+
+#main{
+    margin-top: 10px;
+    background-image: url(../../public/images/sppr.jpg);
+    height: auto;
+    position: relative;
+    width: 900px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 5px #262626;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+
+
+}
+
+#bod{
+    min-height: 300px;
+    height: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+
+
+#log_inner_img{
+
+    box-shadow: none;
+
+}
+ul {
+    list-style-type:none;
+}
+
+#menubar{
+    list-style-type:none;
+    margin-top:10;
+    padding:0;
+    overflow:hidden;
+    font-family: helvetica;
+    position: relative;
+    right:0px;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  
+}
+
+[type='image']{
+    text-align: center;
+}
+
+#menubar li{
+    display: inline;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    vertical-align: center;
+
+    margin: 0;
+}
+
+#menubar li a{
+    transition: 500ms;
+    -moz-transition: 500ms;  
+    -webkit-transition: 500ms;   
+    -o-transition: 500ms;  
+    color: inherit;
+    text-decoration: none;
+    text-shadow: 0px -1px 3px #000000;
+    filter: "progid:DXImageTransform.Microsoft.alpha(opacity=70) progid:DXImageTransform.Microsoft.Shadow(Color=#000000, Direction=180, Strength=17)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.alpha(opacity=70) progid:DXImageTransform.Microsoft.Shadow(Color=#000000, Direction=180, Strength=17)";
+    /* IE Proprietary Filter*/
+}
+#menubar li img{
+    vertical-align: middle;
+}
+
+#menubar li a:hover{
+    font-weight:200;
+    color:rgb(10, 10, 10);
+     text-shadow: 0px 1px 1px #FFFFFF;
+}
+
+.view{
+    position: relative;
+    width: auto;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+}
+.stacklayout{
+    position: inherit;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+
+.pageheader{
+    position: relative;
+    color: #505050;
+    font-family:  helvetica;
+    font-size: 30px;
+    text-shadow: 0px 0px 1px #d1d1d1;
+    /*    filter: Shadow(Color=#d1d1d1, Direction=10, Strength=1);*/
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+
+}
+
+#aboutMeText{
+    font-size: 15px;
+    color: #505050;
+    font-family: helvetica;
+    width: inherit;
+    height: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    text-shadow: none;
+}
+
+#aboutMeText2{
+    font-size: 15px;
+    color: #505050;
+    font-family: helvetica;
+    width: inherit;
+    height: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    text-shadow: none;
+}
+
+
+
+#foot{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 1000px;
+    color: #989898;
+
+}
+
+#mainTable{
+    width: inherit;
+    padding: 0;
+}
+
+#mainTable td{
+    padding-top: 0;
+}
+
+#standardFoot{
+    padding-left: 0px;
+}
+
+#standardFoot li{
+    float: left;
+    color: #d8d8d8;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    font-family: helvetica;
+    font-weight: lighter;
+
+}
+
+#astandardFoot{
+    width: 1000px;
+    margin:auto;
+    height: 60px;
+    color: white;
+}
+
+#philllwarelogo{
+    width: 25px;
+    box-shadow: none;
+}
+
+.text{
+    padding-top: 6px;
+}
+
+#footbar li{
+
+    float: right;
+    color: #d8d8d8;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    font-family: helvetica;
+    font-weight: lighter;
+
+}
+
+#footbar li a{
+    color: #888888;
+    letter-spacing: normal;
+    text-decoration: none;
+    text-shadow: none!important;
+}
+
+
+.pw{
+    color: #888888;
+    text-decoration: none;
+}
+
+.c_page{
+    color: white !important;
+}
+
+#footbar .c_page{
+    color: #888888!important;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+#aboutmepic{
+    margin-top: 50px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.digitalStore{
+    width: 190px;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+#digStore li{
+    float: left;
+    margin: 20px 20px 20px 15px;
+
+
+}
+
+.digitalStore:hover{
+    box-shadow: 0px 0px 15px #80c0ff;
+
+}
+
+#digStore {
+    padding-left: 0px;
+    height: 120px;
+    width: 950px;
+    margin: auto;
+    position: relateve;
+}
+
+#bodmain{
+    min-height:670px;
+    height: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+hr{
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+a {
+    color: rgb(150, 150, 200);
+}
+
+#Title{
+    /*    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";*/
+    text-align: center;
+    font-family: B;
+    font-size: 50px;
+    text-shadow: 0px 1px 0px rgba(200, 200, 200, 0.6);
+    filter: "progid:DXImageTransform.Microsoft.alpha(opacity=70) progid:DXImageTransform.Microsoft.Shadow(Color=#FFFFFF, Direction=180, Strength=2)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.alpha(opacity=70) progid:DXImageTransform.Microsoft.Shadow(Color=#FFFFFF, Direction=180, Strength=2)";
+    /* IE Proprietary Filter*/
+
+    color: rgb(80, 80, 80);
+
+
+
+
+
+    /*    opacity: 0.7;*/
+}
+
+/*for normal browsers*/
+
+#titleCSS{
+    font-family: B;
+    font-size: 45px;
+    text-shadow: 0px 1px 0px rgba(200, 200, 200, 0.6);
+    color: rgba(10, 10, 10, 0.7);
+    text-align: center;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.section{
+    width: inherit;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: solid thin rgb(200, 200, 200);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+h2{
+    font-weight: lighter;
+    
+}

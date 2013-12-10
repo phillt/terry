@@ -1,0 +1,15 @@
+/* 
+    Document   : imagebrowser
+    Created on : Aug 4, 2012, 12:02:04 PM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.image{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    
+}
+

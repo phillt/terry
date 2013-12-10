@@ -1,0 +1,68 @@
+/* 
+    Document   : addeven
+    Created on : Aug 11, 2012, 9:06:20 AM
+    Author     : powerphillg5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+tr td{
+    width: 50%;
+    color: white;
+    text-shadow: none;
+}
+
+tr td:first-child{
+    text-align: right;
+}
+
+textarea{
+    width: 300px;
+    height:100px;
+}
+input[type='text']{
+    width: 200px;
+}
+
+#ui-datepicker-div{
+    z-index: 1000 !important;
+}
+
+.guinimain{
+    width: 900px;
+    hieght: 600px;
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(255, 153, 51);
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+}
+
+.guinititle{
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    text-shadow: none;
+}
+
+span{
+    color: black;
+}
+
+[title='Format']{
+    color: black;
+}
+
+.guiniinner{
+    background-color: #dcdcdc;
+     border-radius: 5px;
+     padding: 10px;
+     border: solid 1px white;
+     margin: 20px;
+     color: black;
+}

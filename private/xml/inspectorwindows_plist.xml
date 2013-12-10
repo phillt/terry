@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspectorwindows>
+    <group>
+        <info>
+            <title>Text Spaceing</title>
+            <class>inspector_default</class>
+            
+        </info>
+        
+        <head>
+            <content>Special Text</content>
+            <inlineStyle>width:auto; color: white;</inlineStyle>
+            
+            <class>windowHead</class>
+        </head>
+        
+        
+    </group>
+    
+    
+</inspectorwindows>
+
